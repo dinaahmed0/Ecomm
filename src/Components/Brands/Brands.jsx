@@ -20,6 +20,10 @@ export default function Brands() {
     return <div>Error: {error}</div>;
   }
 
+  if (brands.length === 0) {
+    return <div className="text-center my-8 text-red-900 ">No brands available.</div>;
+  }
+
   return (
     <div className='container mx-auto text-center my-8'>
       <div className="flex flex-wrap">

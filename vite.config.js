@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Ecomm/"
+  // base: "/Ecomm/"
+  base: process.env.NODE_ENV === 'production' ? '/Ecommerce/' : '/',
 })

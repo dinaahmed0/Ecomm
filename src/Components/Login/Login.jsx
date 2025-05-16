@@ -59,7 +59,7 @@ export default function Login() {
   }
   return (
     <>
-      <div className="w-1/2 mx-auto">
+      <div className=" w-1/2 mx-auto">
         <h1 className='text-main text-3xl'>Login Now!</h1>
 {userMessage? <div className="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-green-800 dark:text-green-400" role="alert">
 <p>{userMessage}</p>

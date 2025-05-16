@@ -20,9 +20,10 @@ import { Toaster } from "react-hot-toast";
 function App() {
   const queryClient = new QueryClient();
 
-  let routes = createBrowserRouter([{
+  let routes = createBrowserRouter([
+    {
     path: '/', element: <Layout/>, children : [
-      {index: true, element: <ProtectedRoutes><Home/></ProtectedRoutes> },
+      {index: true, element: <Home /> },
       {path: "Products", element: <ProtectedRoutes><Products/></ProtectedRoutes> },
       {path: "ProductDetails/:id/:category", element: <ProtectedRoutes><ProductDetails/></ProtectedRoutes> },
       {path: "Brands", element:<ProtectedRoutes><Brands/></ProtectedRoutes>  },

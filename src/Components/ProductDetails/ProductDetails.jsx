@@ -91,7 +91,7 @@ export default function ProductDetails() {
             <div>
               <button
                 onClick={() => addProductToCart(data?.data.data._id)}
-                className="bg-main btn w-full text-white rounded p-2 px-3"
+                className="bg-main btn w-full text-white rounded p-2 px-3 hover:bg-red-700 transition duration-300"
               >
                 Add To Cart
               </button>
