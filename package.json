@@ -2,7 +2,7 @@
   "name": "ecomm",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dinaahmed0.github.io/Ecommerce",
+  "homepage": "https://dinaahmed0.github.io/Ecomm",
   "type": "module",
   "scripts": {
     "dev": "vite",
